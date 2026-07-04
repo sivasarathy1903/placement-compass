@@ -317,19 +317,19 @@ spring.data.mongodb.uri=mongodb://localhost:27017/placement_compass_db
 
 ### Login
 
-<img width="100%" src="screenshots/login.png">
+<img width="100%" src="screenshots/Placement_Compass_login">
 
 ### Dashboard
 
-<img width="100%" src="screenshots/dashboard.png">
+<img width="100%" src="screenshots/Placement_Compass_Dashboard.png">
 
 ### Applications
 
-<img width="100%" src="screenshots/applications.png">
+<img width="100%" src="screenshots/Placement_Compass_Applications.png">
 
 ### Analytics
 
-<img width="100%" src="screenshots/analytics.png">
+<img width="100%" src="screenshots/Placement_Compass_Analytics.png">
 
 ---
 
