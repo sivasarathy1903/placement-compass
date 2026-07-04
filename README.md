@@ -329,7 +329,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/placement_compass_db
 
 ### Analytics
 
-<img width="100%" src="screenshots/Placement_Compass_Analytics.png">
+<img width="100%" src="screenshots/Placement_Comapss_Analytics.png">
 
 ---
 
