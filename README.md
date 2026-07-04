@@ -317,7 +317,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/placement_compass_db
 
 ### Login
 
-<img width="100%" src="screenshots/Placement_Compass_login">
+<img width="100%" src="screenshots/Placement_Compass_login.png">
 
 ### Dashboard
 
