@@ -1,0 +1,138 @@
+/* src/features/calendar/calendar.css */
+
+/* FullCalendar Custom Theme Overrides */
+.fc {
+  --fc-border-color: #e4e4e7; /* zinc-200 */
+  --fc-button-bg-color: #fff;
+  --fc-button-border-color: #e4e4e7;
+  --fc-button-text-color: #3f3f46; /* zinc-700 */
+  --fc-button-hover-bg-color: #f4f4f5; /* zinc-100 */
+  --fc-button-hover-border-color: #d4d4d8; /* zinc-300 */
+  --fc-button-active-bg-color: #f4f4f5;
+  --fc-button-active-border-color: #d4d4d8;
+  --fc-event-bg-color: #4f46e5; /* brand-600 */
+  --fc-event-border-color: #4f46e5;
+  --fc-today-bg-color: #fafafa; /* zinc-50 */
+  --fc-page-bg-color: #ffffff;
+  --fc-neutral-bg-color: #f4f4f5;
+  --fc-list-event-hover-bg-color: #f4f4f5;
+  
+  font-family: inherit;
+}
+
+/* Dark mode overrides */
+.dark .fc {
+  --fc-border-color: #27272a; /* zinc-800 */
+  --fc-button-bg-color: #18181b; /* zinc-900 */
+  --fc-button-border-color: #3f3f46; /* zinc-700 */
+  --fc-button-text-color: #e4e4e7; /* zinc-200 */
+  --fc-button-hover-bg-color: #27272a; /* zinc-800 */
+  --fc-button-hover-border-color: #52525b; /* zinc-600 */
+  --fc-button-active-bg-color: #27272a;
+  --fc-button-active-border-color: #52525b;
+  --fc-today-bg-color: #18181b; /* zinc-900 */
+  --fc-page-bg-color: #09090b; /* zinc-950 */
+  --fc-neutral-bg-color: #18181b; /* zinc-900 */
+  --fc-list-event-hover-bg-color: #27272a;
+}
+
+/* Base structural adjustments */
+.fc-theme-standard td, 
+.fc-theme-standard th, 
+.fc-theme-standard .fc-scrollgrid {
+  border-color: var(--fc-border-color);
+}
+
+.fc-header-toolbar {
+  margin-bottom: 1.5rem !important;
+  padding: 0 1rem;
+}
+
+.fc-toolbar-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: #18181b; /* zinc-900 */
+}
+
+.dark .fc-toolbar-title {
+  color: #ffffff;
+}
+
+.fc-button-primary {
+  text-transform: capitalize;
+  font-weight: 500 !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fc-button-primary:focus {
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.5) !important;
+}
+
+.fc-daygrid-day-number {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem !important;
+  color: #52525b; /* zinc-600 */
+}
+
+.dark .fc-daygrid-day-number {
+  color: #a1a1aa; /* zinc-400 */
+}
+
+.fc-col-header-cell-cushion {
+  padding: 0.75rem 0 !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #71717a; /* zinc-500 */
+}
+
+.dark .fc-col-header-cell-cushion {
+  color: #a1a1aa;
+}
+
+.fc-event {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: none !important;
+  margin-top: 2px;
+}
+
+.fc-daygrid-event-harness {
+  margin: 0 4px;
+}
+
+/* Event Tooltip / Popover */
+.fc-popover {
+  background-color: #ffffff !important;
+  border: 1px solid #e4e4e7 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px !important;
+}
+
+.dark .fc-popover {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+}
+
+.fc-popover-header {
+  background-color: #f4f4f5 !important;
+  color: #18181b !important;
+  border-bottom: 1px solid #e4e4e7 !important;
+  padding: 0.5rem 0.75rem !important;
+  font-weight: 600 !important;
+}
+
+.dark .fc-popover-header {
+  background-color: #27272a !important;
+  color: #ffffff !important;
+  border-color: #3f3f46 !important;
+}
+
+.fc-popover-body {
+  padding: 0.5rem !important;
+}
